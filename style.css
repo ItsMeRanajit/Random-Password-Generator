@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right bottom, #001219, #005f73, #0a9396);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 50px;
+  color: #dffaf5;
+  margin: 30px 0px;
+}
+.container h1 span {
+  color: #90e0ef;
+  text-decoration: underline;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+#choice {
+  color: #dffaf5;
+}
+#choice input[type="number"] {
+  width: 50px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.gen {
+  width: 400px;
+  height: 40px;
+  margin: 20px 0px;
+  background-color: #dffaf5;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gen input {
+  background-color: transparent;
+  border: none;
+  margin: 0px 15px;
+  font-size: 20px;
+}
+.gen input:focus {
+  border: none;
+  outline: none;
+}
+.gen img {
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px;
+  transition: 0.2s;
+}
+.gen img:hover {
+  opacity: 0.8;
+}
+#go {
+  margin: 20px 0px;
+}
+#btn {
+  width: 170px;
+  height: 40px;
+  text-align: center;
+  border-radius: 7px;
+  border: none;
+  background-color: #fea229;
+  transition: 0.2s;
+}
+#btn:hover {
+  background-color: #de8005;
+}
